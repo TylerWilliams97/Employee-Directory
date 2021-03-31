@@ -1,9 +1,4 @@
-//import './App.css';
-import Employees from './API'
-
-
-
-
+import Employees from "./components/Employee";
 
 function App() {
   return (
@@ -13,7 +8,12 @@ function App() {
         
  
          
-        <Employees></Employees>
+    
+      <Employees></Employees>
+      <Employees></Employees>
+      <Employees></Employees>
+      <Employees></Employees>
+      <Employees></Employees>
         
        
     
