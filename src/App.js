@@ -1,5 +1,5 @@
 import Employees from "./components/Employee";
-
+import Searchbar from './components/Search';
 function App() {
   return (
     <div className="App">
@@ -9,13 +9,9 @@ function App() {
  
          
     
-      <Employees></Employees>
-      <Employees></Employees>
-      <Employees></Employees>
-      <Employees></Employees>
-      <Employees></Employees>
+      <Employees />
         
-       
+       <Searchbar />
     
       </header>
     </div>
